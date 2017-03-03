@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_detail_root_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/sv_detail_scrol_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ll_detail_show_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--addView(加载成功展示后的界面)-->
+
+          <!--  &lt;!&ndash;头部布局&ndash;&gt;
+            <include layout="@layout/headview"/>
+
+            &lt;!&ndash;安全布局&ndash;&gt;
+            <include layout="@layout/safeview"/>
+
+            &lt;!&ndash;图片展示&ndash;&gt;
+            <include layout="@layout/showimages"/>
+
+            &lt;!&ndash;备注&ndash;&gt;
+            <include layout="@layout/descview"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--底部-->
+    <!--<include layout="@layout/bottomview"/>-->
+</LinearLayout>
